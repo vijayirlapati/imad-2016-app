@@ -4,7 +4,7 @@ console.log('Loaded!');
 var element=document.getElementById('main-text');
 element.innerHTML='New Element';
 //move the image
-var image=document.getElementById('madi');
+var img=document.getElementById('madi');
 img.onclick=function(){
     img.style.margimLeft="100px";
     
